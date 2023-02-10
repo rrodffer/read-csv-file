@@ -6,7 +6,7 @@ const server = express()
 
 server.use(express.json())
 
-server.use('api/v1/tasks', tasksRouter)
+server.use('/api/v1/tasks', tasksRouter)
 
 server.listen(8800, () => {
   console.log('Backend iniciado! 🛸')
