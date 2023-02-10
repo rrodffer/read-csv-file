@@ -1,5 +1,5 @@
-import express from 'express'
-const router = new express.Router()
+import { Router } from 'express'
+const router = new Router()
 
 // router.post('/')
 
